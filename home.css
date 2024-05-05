@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    background-size: cover;
+}
+/* home page */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    padding: 10px;
+    color: aliceblue;
+}
+.page{
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #ccc;
+}
+.page:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: rgb(57, 57, 230);
+   
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: #000;
+    
+}
+a:hover{
+    color: rgb(225, 63, 63);
+}
+.login-page{
+    padding: 10px;
+}
+button{
+    border: 1px solid #ccc;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.imformation{
+    display: flex;
+    justify-content: space-between;
+}
+.information_text{
+    padding: 40px;
+}
+.information_text h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.information_text p{
+    padding: 30px;
+    font-size:20px ;
+    color: azure;
+}
+.information_image img{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+}
+.information_image img:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
+.aboutMe{
+   background: #222;
+}
+/* about me page */
+h1{
+    padding: 20px;
+    text-align: center;
+}
+.textAll{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-1{
+    padding: 30px;
+    margin: 30px;
+    color: aliceblue;
+    background-color: rgb(225, 63, 63);
+    border: 1px solid rgb(225, 63, 63);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.text-1:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  background: transparent;
+}
+.text-1 a:hover{
+    color: #ccc;
+}
+.s{
+    padding: 1px;
+    margin: 1px;
+    background-color: #ccc;
+}
+/* ather page in about me html*/
+.discription{
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+}
+.discription img{
+    height: 400px;
+    width: 400px;
+}
+.discription img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.inform{
+    padding: 40px;
+    margin: 40px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: rgb(57, 57, 230);
+}
+.inform:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background: transparent;
+    color: #ccc;
+}
+.button_1{
+    padding: 50px;
+    margin: 20px;
+}
+.button_1 a{
+  background-color: rgb(225, 63, 63);
+  padding: 10px;
+  margin: 10px;
+  border: 0.5px solid rgb(57, 57, 230);
+  border-radius: 20px 12px;
+}
+.button_1 a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background: transparent;
+    color: #ccc;
+}
